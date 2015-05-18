@@ -11,22 +11,22 @@
 @implementation Accumulator
 -(void)setAccumulator:(double)number;
 {
-    number1 = number;
+    accumulator = number;
 }
 -(void)clear;
 {
-    number1 = 0;
+    accumulator = 0;
 }
 -(double)getAccumulator;
 {
-    return number1;
+    return accumulator;
 }
 -(void)add:(double)number;
 {
-    number1 +=number;
+    accumulator +=number;
 }
 -(void)subtract:(double)number;
 {
-    number1 -=number;
+    accumulator -=number;
 }
 @end

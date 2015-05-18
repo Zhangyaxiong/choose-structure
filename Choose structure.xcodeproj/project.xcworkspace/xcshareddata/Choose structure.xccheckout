@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C6AD032-F2D8-48AF-9E66-9FD6D4861126</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Choose structure</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89A104708CB027397E9B9B1B0A28C1F8A0818A54</key>
+		<string>https://github.com/Zhangyaxiong/choose-structure.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Choose structure.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89A104708CB027397E9B9B1B0A28C1F8A0818A54</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Zhangyaxiong/choose-structure.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89A104708CB027397E9B9B1B0A28C1F8A0818A54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89A104708CB027397E9B9B1B0A28C1F8A0818A54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Choose%20structure</string>
+		</dict>
+	</array>
+</dict>
+</plist>

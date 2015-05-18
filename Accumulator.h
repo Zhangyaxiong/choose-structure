@@ -10,7 +10,7 @@
 
 @interface Accumulator : NSObject
 {
-    double number1;
+    double accumulator;
 }
 //首先要定义索取数值的分类。
 -(void)setAccumulator:(double)number;
