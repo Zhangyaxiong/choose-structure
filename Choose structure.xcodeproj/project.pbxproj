@@ -13,6 +13,7 @@
 		6903E2ED1B09940F00BF14C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6903E2EB1B09940F00BF14C8 /* LaunchScreen.xib */; };
 		6903E2F91B09940F00BF14C8 /* Choose_structureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903E2F81B09940F00BF14C8 /* Choose_structureTests.m */; };
 		6903E3041B0994A500BF14C8 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903E3031B0994A500BF14C8 /* Accumulator.m */; };
+		690FC3751B09BC14004AED39 /* Ifelse.m in Sources */ = {isa = PBXBuildFile; fileRef = 690FC3741B09BC14004AED39 /* Ifelse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		6903E2F81B09940F00BF14C8 /* Choose_structureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Choose_structureTests.m; sourceTree = "<group>"; };
 		6903E3021B0994A500BF14C8 /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
 		6903E3031B0994A500BF14C8 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
+		690FC3731B09BC14004AED39 /* Ifelse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ifelse.h; sourceTree = "<group>"; };
+		690FC3741B09BC14004AED39 /* Ifelse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ifelse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		6903E2D01B09940F00BF14C8 = {
 			isa = PBXGroup;
 			children = (
+				690FC3731B09BC14004AED39 /* Ifelse.h */,
+				690FC3741B09BC14004AED39 /* Ifelse.m */,
 				6903E3021B0994A500BF14C8 /* Accumulator.h */,
 				6903E3031B0994A500BF14C8 /* Accumulator.m */,
 				6903E2DB1B09940F00BF14C8 /* Choose structure */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6903E3041B0994A500BF14C8 /* Accumulator.m in Sources */,
+				690FC3751B09BC14004AED39 /* Ifelse.m in Sources */,
 				6903E2DF1B09940F00BF14C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +414,7 @@
 				6903E2FE1B09940F00BF14C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6903E2FF1B09940F00BF14C8 /* Build configuration list for PBXNativeTarget "Choose structureTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				6903E3011B09940F00BF14C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

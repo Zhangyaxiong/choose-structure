@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "Accumulator.h"
+#import "Ifelse.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -35,6 +36,16 @@ int main(int argc, char * argv[]) {
         NSLog(@"%@",string);
         NSString *str_format = [[NSString alloc]initWithFormat:@"%@",str_cal];
         NSLog(@"%@",str_format);
+        
+        
+        /*练习if － else操作*/
+        Ifelse *select_stucture = [[Ifelse alloc]init];
+        [select_stucture printStudentScoreLevel:136];
+        [select_stucture printStudentScoreLevel:124];
+        [select_stucture printStudentScoreLevel:100];
+        [select_stucture printStudentScoreLevel:56];
+        
+        
         return 0;
     }
 }
