@@ -1,6 +1,6 @@
 //
 //  Accumulator.m
-//  Choose exercise
+//  Choose structure
 //
 //  Created by 张亚雄 on 15/5/15.
 //  Copyright (c) 2015年 张亚雄. All rights reserved.
