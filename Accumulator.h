@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Accumulator : NSObject
-{
+{//函数方法的名。
     double accumulator;
 }
 //首先要定义索取数值的分类。

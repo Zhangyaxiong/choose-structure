@@ -10,7 +10,8 @@
 #import "AppDelegate.h"
 #import "Accumulator.h"
 #import "Ifelse.h"
-
+#import "Exercise.h"
+#import "ArrayExercise.h"
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         int number;
@@ -44,6 +45,28 @@ int main(int argc, char * argv[]) {
         [select_stucture printStudentScoreLevel:124];
         [select_stucture printStudentScoreLevel:100];
         [select_stucture printStudentScoreLevel:56];
+        
+        //*练习 Ifelse
+        Ifelse *ScoreLevel = [[Ifelse alloc]init];
+        [ScoreLevel printstudentscoreLevel:91];
+        [ScoreLevel printstudentscoreLevel:89];
+       
+        //*练习2 Exercise
+        Exercise *level =[[Exercise alloc]init];
+        [level  printingGrades :120];
+        [level  printingGrades :90];
+        
+        
+        Exercise  * collection =[[Exercise alloc]init];
+        
+        [collection printNumber :3 :5];
+        [collection printNumber :8 :10];
+       
+        //*练习不可变数组（字符串）NSString
+        ArrayExercise *arrExer=[[ArrayExercise alloc]init];
+        [arrExer nameSring];
+       
+        
         
         
         return 0;

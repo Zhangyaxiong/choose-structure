@@ -10,4 +10,6 @@
 
 @interface Ifelse : NSObject
 -(void) printStudentScoreLevel:(double)score;
+-(void) printstudentscoreLevel:(double)score;
+
 @end

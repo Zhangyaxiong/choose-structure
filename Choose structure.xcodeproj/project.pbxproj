@@ -14,6 +14,8 @@
 		6903E2F91B09940F00BF14C8 /* Choose_structureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903E2F81B09940F00BF14C8 /* Choose_structureTests.m */; };
 		6903E3041B0994A500BF14C8 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903E3031B0994A500BF14C8 /* Accumulator.m */; };
 		690FC3751B09BC14004AED39 /* Ifelse.m in Sources */ = {isa = PBXBuildFile; fileRef = 690FC3741B09BC14004AED39 /* Ifelse.m */; };
+		691BACC71B0C28FA0018F067 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BACC61B0C28FA0018F067 /* Exercise.m */; };
+		692DBA601B0C6DC90006983C /* ArrayExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 692DBA5F1B0C6DC90006983C /* ArrayExercise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		6903E3031B0994A500BF14C8 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
 		690FC3731B09BC14004AED39 /* Ifelse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ifelse.h; sourceTree = "<group>"; };
 		690FC3741B09BC14004AED39 /* Ifelse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ifelse.m; sourceTree = "<group>"; };
+		691BAC581B0C248B0018F067 /* Choose structure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Choose structure-Bridging-Header.h"; sourceTree = "<group>"; };
+		691BACC51B0C28FA0018F067 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		691BACC61B0C28FA0018F067 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		692DBA5E1B0C6DC90006983C /* ArrayExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayExercise.h; sourceTree = "<group>"; };
+		692DBA5F1B0C6DC90006983C /* ArrayExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayExercise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,10 @@
 		6903E2D01B09940F00BF14C8 = {
 			isa = PBXGroup;
 			children = (
+				692DBA5E1B0C6DC90006983C /* ArrayExercise.h */,
+				692DBA5F1B0C6DC90006983C /* ArrayExercise.m */,
+				691BACC51B0C28FA0018F067 /* Exercise.h */,
+				691BACC61B0C28FA0018F067 /* Exercise.m */,
 				690FC3731B09BC14004AED39 /* Ifelse.h */,
 				690FC3741B09BC14004AED39 /* Ifelse.m */,
 				6903E3021B0994A500BF14C8 /* Accumulator.h */,
@@ -70,6 +81,7 @@
 				6903E2DB1B09940F00BF14C8 /* Choose structure */,
 				6903E2F51B09940F00BF14C8 /* Choose structureTests */,
 				6903E2DA1B09940F00BF14C8 /* Products */,
+				691BAC581B0C248B0018F067 /* Choose structure-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6903E3041B0994A500BF14C8 /* Accumulator.m in Sources */,
+				691BACC71B0C28FA0018F067 /* Exercise.m in Sources */,
+				692DBA601B0C6DC90006983C /* ArrayExercise.m in Sources */,
 				690FC3751B09BC14004AED39 /* Ifelse.m in Sources */,
 				6903E2DF1B09940F00BF14C8 /* main.m in Sources */,
 			);
@@ -345,9 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Choose structure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Choose structure-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -355,9 +372,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Choose structure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Choose structure-Bridging-Header.h";
 			};
 			name = Release;
 		};

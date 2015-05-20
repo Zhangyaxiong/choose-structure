@@ -26,5 +26,21 @@
     {
         NSLog(@"成绩不及格");
     }
+    
 }
+-(void) printstudentscoreLevel:(double)score
+{
+    if(score >= 90)
+    {
+        NSLog(@"pass");
+    }
+    else
+    {
+        NSLog(@"not pass");
+    }
+}
+
+
+
+
 @end
